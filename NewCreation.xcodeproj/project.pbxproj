@@ -14,14 +14,13 @@
 		2C344BFD2D7B231F00B5EB9E /* libonnxruntime.1.22.0.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2C344BFB2D7B231100B5EB9E /* libonnxruntime.1.22.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		2C77E5332D7AF2AF00C42F7F /* genai_config.json in Resources */ = {isa = PBXBuildFile; fileRef = 2C77E52D2D7AF2AF00C42F7F /* genai_config.json */; };
 		2C77E5342D7AF2AF00C42F7F /* config.json in Resources */ = {isa = PBXBuildFile; fileRef = 2C77E52B2D7AF2AF00C42F7F /* config.json */; };
-		2C77E5352D7AF2AF00C42F7F /* phi3-mini-128k-instruct-cpu-int4-rtn-block-32-acc-level-4.onnx.data in Resources */ = {isa = PBXBuildFile; fileRef = 2C77E52F2D7AF2AF00C42F7F /* phi3-mini-128k-instruct-cpu-int4-rtn-block-32-acc-level-4.onnx.data */; };
 		2C77E5362D7AF2AF00C42F7F /* tokenizer.json in Resources */ = {isa = PBXBuildFile; fileRef = 2C77E5312D7AF2AF00C42F7F /* tokenizer.json */; };
 		2C77E5372D7AF2AF00C42F7F /* tokenizer_config.json in Resources */ = {isa = PBXBuildFile; fileRef = 2C77E5322D7AF2AF00C42F7F /* tokenizer_config.json */; };
 		2C77E5382D7AF2AF00C42F7F /* configuration_phi3.py in Resources */ = {isa = PBXBuildFile; fileRef = 2C77E52C2D7AF2AF00C42F7F /* configuration_phi3.py */; };
 		2C77E5392D7AF2AF00C42F7F /* added_tokens.json in Resources */ = {isa = PBXBuildFile; fileRef = 2C77E52A2D7AF2AF00C42F7F /* added_tokens.json */; };
-		2C77E53A2D7AF2AF00C42F7F /* phi3-mini-128k-instruct-cpu-int4-rtn-block-32-acc-level-4.onnx in Resources */ = {isa = PBXBuildFile; fileRef = 2C77E52E2D7AF2AF00C42F7F /* phi3-mini-128k-instruct-cpu-int4-rtn-block-32-acc-level-4.onnx */; };
 		2C77E53B2D7AF2AF00C42F7F /* special_tokens_map.json in Resources */ = {isa = PBXBuildFile; fileRef = 2C77E5302D7AF2AF00C42F7F /* special_tokens_map.json */; };
-		F24E5E8A4CB0CA8A850F33BE /* Pods_NewCreation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79A246A25057911D4A9923ED /* Pods_NewCreation.framework */; };
+		2CA503002D7B5D7C00F82060 /* phi3-mini-128k-instruct-cpu-int4-rtn-block-32-acc-level-4.onnx in Resources */ = {isa = PBXBuildFile; fileRef = 2CA502FF2D7B5D7C00F82060 /* phi3-mini-128k-instruct-cpu-int4-rtn-block-32-acc-level-4.onnx */; };
+		2CA503022D7B613800F82060 /* phi3-mini-128k-instruct-cpu-int4-rtn-block-32-acc-level-4.onnx.data in Resources */ = {isa = PBXBuildFile; fileRef = 2CA503012D7B613800F82060 /* phi3-mini-128k-instruct-cpu-int4-rtn-block-32-acc-level-4.onnx.data */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -48,14 +47,11 @@
 		2C77E52B2D7AF2AF00C42F7F /* config.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = config.json; sourceTree = "<group>"; };
 		2C77E52C2D7AF2AF00C42F7F /* configuration_phi3.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = configuration_phi3.py; sourceTree = "<group>"; };
 		2C77E52D2D7AF2AF00C42F7F /* genai_config.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = genai_config.json; sourceTree = "<group>"; };
-		2C77E52E2D7AF2AF00C42F7F /* phi3-mini-128k-instruct-cpu-int4-rtn-block-32-acc-level-4.onnx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "phi3-mini-128k-instruct-cpu-int4-rtn-block-32-acc-level-4.onnx"; sourceTree = "<group>"; };
-		2C77E52F2D7AF2AF00C42F7F /* phi3-mini-128k-instruct-cpu-int4-rtn-block-32-acc-level-4.onnx.data */ = {isa = PBXFileReference; lastKnownFileType = file; path = "phi3-mini-128k-instruct-cpu-int4-rtn-block-32-acc-level-4.onnx.data"; sourceTree = "<group>"; };
 		2C77E5302D7AF2AF00C42F7F /* special_tokens_map.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = special_tokens_map.json; sourceTree = "<group>"; };
 		2C77E5312D7AF2AF00C42F7F /* tokenizer.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = tokenizer.json; sourceTree = "<group>"; };
 		2C77E5322D7AF2AF00C42F7F /* tokenizer_config.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = tokenizer_config.json; sourceTree = "<group>"; };
-		654696B9B36337C677CBBB19 /* Pods-NewCreation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewCreation.release.xcconfig"; path = "Target Support Files/Pods-NewCreation/Pods-NewCreation.release.xcconfig"; sourceTree = "<group>"; };
-		79A246A25057911D4A9923ED /* Pods_NewCreation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NewCreation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		ED20CDC4824625B7C873AE14 /* Pods-NewCreation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewCreation.debug.xcconfig"; path = "Target Support Files/Pods-NewCreation/Pods-NewCreation.debug.xcconfig"; sourceTree = "<group>"; };
+		2CA502FF2D7B5D7C00F82060 /* phi3-mini-128k-instruct-cpu-int4-rtn-block-32-acc-level-4.onnx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "phi3-mini-128k-instruct-cpu-int4-rtn-block-32-acc-level-4.onnx"; sourceTree = "<group>"; };
+		2CA503012D7B613800F82060 /* phi3-mini-128k-instruct-cpu-int4-rtn-block-32-acc-level-4.onnx.data */ = {isa = PBXFileReference; lastKnownFileType = file; path = "phi3-mini-128k-instruct-cpu-int4-rtn-block-32-acc-level-4.onnx.data"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -85,7 +81,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C344BFA2D7B22EC00B5EB9E /* libonnxruntime.dylib in Frameworks */,
-				F24E5E8A4CB0CA8A850F33BE /* Pods_NewCreation.framework in Frameworks */,
 				2C344BFC2D7B231100B5EB9E /* libonnxruntime.1.22.0.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -99,7 +94,6 @@
 				2C344BFB2D7B231100B5EB9E /* libonnxruntime.1.22.0.dylib */,
 				2C09E20F2D7B20270013987B /* libonnxruntime.dylib */,
 				2C09E2102D7B20270013987B /* libonnxruntime-genai.dylib */,
-				79A246A25057911D4A9923ED /* Pods_NewCreation.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -107,18 +101,17 @@
 		2C77E4F82D7AEFD700C42F7F = {
 			isa = PBXGroup;
 			children = (
+				2CA503012D7B613800F82060 /* phi3-mini-128k-instruct-cpu-int4-rtn-block-32-acc-level-4.onnx.data */,
+				2CA502FF2D7B5D7C00F82060 /* phi3-mini-128k-instruct-cpu-int4-rtn-block-32-acc-level-4.onnx */,
 				2C77E52A2D7AF2AF00C42F7F /* added_tokens.json */,
 				2C77E52B2D7AF2AF00C42F7F /* config.json */,
 				2C77E52C2D7AF2AF00C42F7F /* configuration_phi3.py */,
 				2C77E52D2D7AF2AF00C42F7F /* genai_config.json */,
-				2C77E52E2D7AF2AF00C42F7F /* phi3-mini-128k-instruct-cpu-int4-rtn-block-32-acc-level-4.onnx */,
-				2C77E52F2D7AF2AF00C42F7F /* phi3-mini-128k-instruct-cpu-int4-rtn-block-32-acc-level-4.onnx.data */,
 				2C77E5302D7AF2AF00C42F7F /* special_tokens_map.json */,
 				2C77E5312D7AF2AF00C42F7F /* tokenizer.json */,
 				2C77E5322D7AF2AF00C42F7F /* tokenizer_config.json */,
 				2C77E5032D7AEFD700C42F7F /* NewCreation */,
 				2C77E5022D7AEFD700C42F7F /* Products */,
-				C0E8E9A7A5355E7D2F2C61BF /* Pods */,
 				2927CBC3E061F8BE48804AFF /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -131,15 +124,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C0E8E9A7A5355E7D2F2C61BF /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				ED20CDC4824625B7C873AE14 /* Pods-NewCreation.debug.xcconfig */,
-				654696B9B36337C677CBBB19 /* Pods-NewCreation.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,7 +131,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C77E5102D7AEFD900C42F7F /* Build configuration list for PBXNativeTarget "NewCreation" */;
 			buildPhases = (
-				CC86AE38F59504EF762BD7C7 /* [CP] Check Pods Manifest.lock */,
 				2C77E4FD2D7AEFD700C42F7F /* Sources */,
 				2C77E4FE2D7AEFD700C42F7F /* Frameworks */,
 				2C77E4FF2D7AEFD700C42F7F /* Resources */,
@@ -206,43 +189,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C77E5332D7AF2AF00C42F7F /* genai_config.json in Resources */,
+				2CA503002D7B5D7C00F82060 /* phi3-mini-128k-instruct-cpu-int4-rtn-block-32-acc-level-4.onnx in Resources */,
 				2C77E5342D7AF2AF00C42F7F /* config.json in Resources */,
-				2C77E5352D7AF2AF00C42F7F /* phi3-mini-128k-instruct-cpu-int4-rtn-block-32-acc-level-4.onnx.data in Resources */,
 				2C77E5362D7AF2AF00C42F7F /* tokenizer.json in Resources */,
+				2CA503022D7B613800F82060 /* phi3-mini-128k-instruct-cpu-int4-rtn-block-32-acc-level-4.onnx.data in Resources */,
 				2C77E5372D7AF2AF00C42F7F /* tokenizer_config.json in Resources */,
 				2C77E5382D7AF2AF00C42F7F /* configuration_phi3.py in Resources */,
 				2C77E5392D7AF2AF00C42F7F /* added_tokens.json in Resources */,
-				2C77E53A2D7AF2AF00C42F7F /* phi3-mini-128k-instruct-cpu-int4-rtn-block-32-acc-level-4.onnx in Resources */,
 				2C77E53B2D7AF2AF00C42F7F /* special_tokens_map.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		CC86AE38F59504EF762BD7C7 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-NewCreation-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2C77E4FD2D7AEFD700C42F7F /* Sources */ = {
@@ -375,7 +333,6 @@
 		};
 		2C77E5112D7AEFD900C42F7F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ED20CDC4824625B7C873AE14 /* Pods-NewCreation.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -415,7 +372,6 @@
 		};
 		2C77E5122D7AEFD900C42F7F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 654696B9B36337C677CBBB19 /* Pods-NewCreation.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
